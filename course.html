@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav class="get1">
+            <a href="index.html"><img id="logo" src="https://www.logo.wine/a/logo/University_of_Cambridge/University_of_Cambridge-Logo.wine.svg"></a>
+
+
+            <div class="nav-links" id="navlinks">
+               <div class="close-icon"><i class="fa fa-times" onclick="hideMenu()"></i></div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+
+            </div>
+           <div class="close-icon"> <i class="fa fa-bars" onclick="showMenu()"></i></div>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+   
+    <section class="course">
+        <h1>Courses We offer</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste molestiae, dicta libero quisquam architecto
+            accusamus, perferendis vel placeat exercitationem voluptatibus quaerat adipisci iure eaque quas id culpa at
+            sequi consequatur?
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Bsc(hons) CS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, exercitationem.</p>
+            </div>
+            <div class="course-col">
+                <h3>MCA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, exercitationem.</p>
+            </div>
+            <div class="course-col">
+                <h3>Msc CS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, exercitationem.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, veniam.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="pexels-rafael-cosquiere-2041540.jpg">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et! Porro
+                    quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores possimus
+                    repellendus quae!</p>
+            </div>
+            
+                <div class="facilities-col">
+                    <img src="pexels-ricardo-esquivel-2529383.jpg">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et! Porro
+                        quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores possimus
+                        repellendus quae!</p>
+                </div>
+                
+                    <div class="facilities-col">
+                        <img src="pexels-julia-filirovska-7140280.jpg">
+                        <h3>Tasty And Healthy Food</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et!
+                            Porro quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores
+                            possimus repellendus quae!</p>
+                    </div>
+                </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us
+        </h4>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, illo commodi eos exercitationem dolore beatae
+            magnam delectus repudiandae modi voluptatibus.<br> Debitis quis iusto sapiente provident magni quisquam a
+            recusandae ad.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with<i class="fa fa-heart"></i>by vanshika Maan</p>
+    </section>
+    <!---- toggle menu javascript-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
